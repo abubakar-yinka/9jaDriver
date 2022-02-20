@@ -1,0 +1,39 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-9jadriver-dev-72131-authRole",
+      "UnauthRoleArn": "arn:aws:iam::909314896386:role/amplify-9jadriver-dev-72131-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::909314896386:role/amplify-9jadriver-dev-72131-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-9jadriver-dev-72131-deployment",
+      "UnauthRoleName": "amplify-9jadriver-dev-72131-unauthRole",
+      "StackName": "amplify-9jadriver-dev-72131",
+      "StackId": "arn:aws:cloudformation:us-east-1:909314896386:stack/amplify-9jadriver-dev-72131/468b20e0-4f4a-11ec-a16a-0e51eb23001b",
+      "AmplifyAppId": "d3o8y2d5sg4r45",
+      "AuthTriggerTemplateURL": "https://s3.amazonaws.com/amplify-9jadriver-dev-72131-deployment/amplify-cfn-templates/auth/auth-trigger-cloudformation-template.json"
+    },
+    "categories": {
+      "auth": {
+        "9jaDriver": {}
+      },
+      "function": {
+        "9jaDriverCreateAuthChallenge": {
+          "deploymentBucketName": "amplify-9jadriver-dev-72131-deployment",
+          "s3Key": "amplify-builds/9jaDriverCreateAuthChallenge-63596a54706e4d337375-build.zip"
+        },
+        "9jaDriverDefineAuthChallenge": {
+          "deploymentBucketName": "amplify-9jadriver-dev-72131-deployment",
+          "s3Key": "amplify-builds/9jaDriverDefineAuthChallenge-756672314a6b71773051-build.zip"
+        },
+        "9jaDriverPreSignup": {
+          "deploymentBucketName": "amplify-9jadriver-dev-72131-deployment",
+          "s3Key": "amplify-builds/9jaDriverPreSignup-6c6233655a4f36784130-build.zip"
+        },
+        "9jaDriverVerifyAuthChallengeResponse": {
+          "deploymentBucketName": "amplify-9jadriver-dev-72131-deployment",
+          "s3Key": "amplify-builds/9jaDriverVerifyAuthChallengeResponse-36754537503264337663-build.zip"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+projects:
+  9jadriver:
+    schemaPath: 'C:/Users/Yinka/Desktop/Projects/gig/9jadriver/Driver/graphql/schema.json'
+    includes:
+      - src/graphql/**/*.js
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: javascript
+        generatedFileName: ''
+        docsFilePath: src/graphql
